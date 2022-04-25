@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FCF0C8"
+    android:orientation="vertical">
+    //login
+
+    <TextView
+        android:id="@+id/tt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:fontFeatureSettings="doris"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Register"
+        android:textColor="#9E272F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    //email
+    <EditText
+        android:id="@+id/et_rg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:textSize="20dp" />
+
+    //username
+
+    <EditText
+        android:id="@+id/et_rg_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="30dp"
+        android:hint="Username"
+        android:textSize="20dp" />
+
+    //pass
+
+    <EditText
+        android:id="@+id/et_rg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+
+    //button
+
+    <Button
+        android:id="@+id/btn_rg_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Register"
+        app:backgroundTint="#888282"
+        app:iconTint="#A18B8B" />
+</RelativeLayout>
